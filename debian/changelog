@@ -1,0 +1,10 @@
+scibian-gnome-config (8.0.0) jessie; urgency=medium
+
+  * Initial GNOME configuration for Scibian, among the changes:
+   - Enforce the lock screen
+   - Set a login banner
+   - Favourite gnome-shell applications
+   - Display desktop icons
+   - Run tracker in idle mode
+
+ -- Scibian Packaging Team <packaging@scibian.org>  Thu, 01 Sep 2016 16:06:22 +0200

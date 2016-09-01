@@ -1,0 +1,12 @@
+Source: scibian-gnome-config
+Section: scibian
+Priority: optional
+Maintainer: Scibian Packaging Team <packaging@scibian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+
+Package: scibian-gnome-config
+Architecture: all
+Depends: ${misc:Depends}, gnome-shell-extension-topicons
+Description: Configuration graphique Gnome pour Scibian
+ Theme GDM pour Scibian, fond d'ecran, icones.

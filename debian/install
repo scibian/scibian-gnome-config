@@ -1,0 +1,2 @@
+dconf /etc
+99-scibian-settings /usr/share/gdm/dconf

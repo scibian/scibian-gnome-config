@@ -1,0 +1,13 @@
+#!/bin/sh
+# postinst script for scibian-gnome-config
+#
+# see: dh_installdeb(1)
+
+set -e
+
+# update the dconf base
+dconf update
+
+#DEBHELPER#
+
+exit 0

@@ -1,0 +1,25 @@
+[org.gnome.desktop.background]
+# Squeeze-like icons on the desktop
+show-desktop-icons=true
+
+[org.gnome.settings-daemon.plugins.media-keys]
+logout='<Shift><Control><Alt>Delete'
+
+[org.gnome.settings-daemon.plugins.updates]
+active=false
+
+[org.gnome.settings-daemon.peripherals.keyboard]
+numlock-state='on'
+remember-numlock-state=true
+
+[org.gnome.nautilus.list-view]
+use-tree-view=true
+
+[org.gnome.shell]
+favorite-apps=['firefox-esr.desktop', 'org.gnome.Nautilus.desktop', 'libreoffice-startcenter.desktop', 'org.gnome.gedit.desktop', 'gnome-terminal.desktop', 'gnome-calculator.desktop', 'scibian-documentation.desktop']
+# Enable legacy tray icons
+enabled-extensions=['alternative-status-menu@gnome-shell-extensions.gcampax.github.com','topIcons@adel.gadllah@gmail.com']
+
+[org.freedesktop.Tracker.Miner.Files]
+# Index data only if the computer is not in use
+sched-idle='always'
