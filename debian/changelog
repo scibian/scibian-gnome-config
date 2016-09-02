@@ -1,4 +1,4 @@
-scibian-gnome-config (8.0.0) jessie; urgency=medium
+scibian-gnome-config (8.0) jessie; urgency=medium
 
   * Initial GNOME configuration for Scibian, among the changes:
    - Enforce the lock screen
